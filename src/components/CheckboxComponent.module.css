@@ -23,13 +23,14 @@ color: rgba(39, 37, 37, 0.585);
   }
   .item:hover {
     background-color: white;
+    
   }
   
   .item input[type="checkbox"] {
     width: 20px;
     height: 20px;
     appearance: none;
-    background-color: #f0f0f0;
+    background-color: white;
     border-radius: 4px;
     border: 2px solid #e0e0e0;
     position: relative;
@@ -37,7 +38,7 @@ color: rgba(39, 37, 37, 0.585);
   }
   .item input[type="checkbox"]:hover::before {
     content: '✔';
-    color:rgb(182, 169, 169);
+    color:rgb(249, 244, 244);
     position: absolute;
     top: 1px;
     left: 4px;
