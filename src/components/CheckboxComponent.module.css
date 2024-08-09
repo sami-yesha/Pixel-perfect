@@ -38,7 +38,7 @@ color: rgba(39, 37, 37, 0.585);
   }
   .item input[type="checkbox"]:hover::before {
     content: '✔';
-    color:rgb(249, 244, 244);
+    color:rgb(205, 197, 197);
     position: absolute;
     top: 1px;
     left: 4px;
