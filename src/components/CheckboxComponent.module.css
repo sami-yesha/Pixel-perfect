@@ -60,13 +60,15 @@ color: rgba(39, 37, 37, 0.585);
   
   .divider {
     border: none;
+    width: 340px;
     height: 1px;
     background-color: #e0e0e0;
     margin: 10px 0;
   }
   
   .doneButton {
-    width: 100%;
+    width: 340px;
+    height: 40px;
     padding: 10px;
     background: rgba(255, 206, 34, 1);
     border: none;
