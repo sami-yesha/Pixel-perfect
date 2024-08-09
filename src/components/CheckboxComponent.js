@@ -25,7 +25,7 @@ const CheckboxComponent = () => {
 
   return (
     <div className={styles.container}>
-      <div className={styles.item} onClick={toggleSelectAll}>
+      <div className={`${styles.item} ${styles.selected}`} onClick={toggleSelectAll}>
         <span>All pages</span>
         <input
           type="checkbox"
@@ -33,7 +33,9 @@ const CheckboxComponent = () => {
           readOnly
         />
       </div>
+      <div className={styles.divid}>
       <hr className={styles.divider} />
+      </div>
       {pages.map(page => (
         <div
           key={page}
