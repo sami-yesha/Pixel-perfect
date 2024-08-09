@@ -5,6 +5,7 @@
     border-radius: 8px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0);
     font-family: Arial, sans-serif;
+    margin-top: 0%;
   }
   
   .item {
@@ -16,11 +17,12 @@
     transition: background-color 0.2s ease;
   }
   .item>span{
-    font-family: Montserrat;
+    /* font-family: Montserrat;
 font-size: 14px;
 font-weight: 400;
 line-height: 18.2px;
-text-align: left;
+text-align: left; */
+color: rgba(39, 37, 37, 0.585);
 
   }
   .item:hover {
@@ -68,9 +70,9 @@ text-align: left;
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.2s ease;
+    color: rgba(39, 37, 37, 0.585);
   }
-  
   .doneButton:hover {
-    background-color: #ffb300;
+    background-color: #faca5b;
   }
   

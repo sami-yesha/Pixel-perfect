@@ -6,7 +6,7 @@ const CheckboxComponent = () => {
   const [selectedPages, setSelectedPages] = useState([]);
 
   const pages = ['Page 1', 'Page 2', 'Page 3', 'Page 4'];
-
+                                  
   const toggleSelect = (page) => {
     if (selectedPages.includes(page)) {
       setSelectedPages(selectedPages.filter(p => p !== page));
@@ -46,7 +46,7 @@ const CheckboxComponent = () => {
             checked={selectedPages.includes(page)}
             readOnly
           />
-        </div>
+        </div>  
       ))}
       <hr className={styles.divider} />
       <button className={styles.doneButton}>Done</button>
