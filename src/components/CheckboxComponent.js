@@ -5,7 +5,7 @@ import styles from './CheckboxComponent.module.css';
 const CheckboxComponent = () => {
   const [selectedPages, setSelectedPages] = useState([]);
 
-  const pages = ['Page 1', 'Page 2', 'Page 3', 'Page 4'];
+  const pages = ['Page 1', 'Page 2', 'Page 3', 'Page 4'];      
                                   
   const toggleSelect = (page) => {
     if (selectedPages.includes(page)) {
